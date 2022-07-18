@@ -32,6 +32,13 @@
         </dependency>
 
         <dependency>
+            <groupId>com.backend.springboot.app.commons.beneficiarios</groupId>
+            <artifactId>ayllusinchi-commons-beneficiarios</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
@@ -54,11 +61,6 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.backend.springboot.app.commons.beneficiarios</groupId>
-            <artifactId>ayllusinchi-commons-beneficiarios</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
     </dependencies>
     <dependencyManagement>
