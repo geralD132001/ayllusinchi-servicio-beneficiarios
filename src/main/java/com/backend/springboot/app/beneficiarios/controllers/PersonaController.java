@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
-@CrossOrigin(origins = { "https://ayllusinchi-app.azurewebsites.net" })
+@CrossOrigin(origins = { "https://ayllusinchis-app.azurewebsites.net" })
 @RestController
 public class PersonaController {
 
